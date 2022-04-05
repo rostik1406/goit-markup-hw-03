@@ -1,0 +1,175 @@
+/* колір основного тексту:  #757575; */
+/* вторичний колір тексту:  #212121 */
+/* Білий:  #ffffff */
+/* Акцентний:  #2196F3 */
+/* Колір фону футера #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --text-white-color: #ffffff;
+  --background-footer-color: #2f303a;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+/* styles do logo */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--accent-color);
+}
+
+.logo-dark {
+  color: var(--title-text-color);
+}
+
+.logo-light {
+  color: var(--text-white-color);
+}
+
+/* styles do site-nav */
+.site-nav .link {
+  color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Styles do auth-link  (nav) */
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+
+.auth-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Styles do hero-title  (Блок героя ) */
+.hero-title {
+  color: var(--text-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+
+  color: var(--text-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+}
+
+/* Загальні стилі до section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+.features-title,
+.team-title {
+  color: var(--title-text-color);
+}
+
+/*  загальні стилі до списків */
+.list {
+  list-style: none;
+}
+
+/* загальні стилі до сидок */
+.link {
+  text-decoration: none;
+}
+
+/* загальні стилі до footera */
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.maps {
+  color: var(--text-white-color);
+}
+
+.links {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+/* СТИЛІ ДО ПОРТФОЛІО */
+.navigation-list {
+  list-style: none;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.navigation-list .button:hover,
+.navigation-list .button:focus {
+  color: var(--accent-color);
+}
+
+.button {
+  color: var(--title-text-color);
+}
+
+.port-list {
+  list-style: none;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.port-link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.port-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
