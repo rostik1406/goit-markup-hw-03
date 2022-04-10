@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-markup-hw-02</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet">
-
   </head>
 
   <body>
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="header-nav">
         <a href="" class="logo">Web<span class="logo-dark">Studio</span></a>
-        <ul class="site-nav list">
-          <li><a href="" class="link">Студия</a></li>
+        <ul class="nav-list list">
+          <li><a href="" class="link current">Студия</a></li>
           <li><a href="./portfolio.html" class="link">Портфолио</a></li>
           <li><a href="" class="link">Контакты</a></li>
         </ul>
@@ -32,14 +33,18 @@
             href="mailto:info@devstudio.com"
             target="_blank"
             rel="noopener noindex nofollow"
-            class="link">info@devstudio.com</a>
+            class="link"
+            >info@devstudio.com</a
+          >
         </li>
         <li class="auth-sent">
           <a
             href="tel:+380961111111"
             target="_blank"
             rel="noopener noindex nofollow"
-            class="link">+38 096 111 11 11</a>
+            class="link"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
@@ -47,16 +52,19 @@
     <main>
       <!-- Блок героя -->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <h1 class="hero-title">
+          Эффективные решения 
+          для вашего бизнеса
+        </h1>
 
         <button type="button" class="hero-button">Заказать услугу</button>
       </section>
 
       <!-- Наші переваги -->
       <section class="section">
-        <h2 class="section-title">Наші переваги</h2>
+        <h2 class="visually-hidden">Наші переваги</h2>
 
-        <ul class="features list">
+        <ul class="features-list list">
           <li class="features-item">
             <h3 class="features-title">Внимание к деталям</h3>
             <p class="features-text">
@@ -95,7 +103,7 @@
       <section class="section">
         <h2 class="section-title">Чем мы занимаемся</h2>
 
-        <ul class="works list">
+        <ul class="works-list list">
           <li>
             <img src="./images/img(1).jpg" alt="фото" width="370" />
           </li>
@@ -109,40 +117,41 @@
       </section>
 
       <!-- Наша команда -->
-      <section class="section">
+      <section class="section team">
         <h2 class="section-title">Наша команда</h2>
 
-        <ul class="team list">
+        <ul class="team-list list">
           <li class="team-item">
-            <a href=""
+            <a class="team-link" href=""
               ><img
-                src="./images/img(4).jpg"
-                alt="Игорь Демьяненко"
-                width="270"
+                src="./images/img(4).jpg" alt="Игорь Демьяненко" width="270"
             /></a>
             <h3 class="team-title">Игорь Демьяненко</h3>
             <p class="team-text">Product Designer</p>
           </li>
 
           <li class="team-item">
-            <a href=""
-              ><img src="./images/img(5).jpg" alt="Ольга Репина" width="270"
+            <a class="team-link" href=""
+              ><img 
+              src="./images/img(5).jpg" alt="Ольга Репина" width="270"
             /></a>
             <h3 class="team-title">Ольга Репина</h3>
             <p class="team-text">Frontend Developer</p>
           </li>
 
           <li class="team-item">
-            <a href=""
-              ><img src="./images/img(6).jpg" alt="Николай Тарасов" width="270"
+            <a class="team-link" href=""
+              ><img 
+              src="./images/img(6).jpg" alt="Николай Тарасов" width="270"
             /></a>
             <h3 class="team-title">Николай Тарасов</h3>
             <p class="team-text">Marketing</p>
           </li>
 
           <li class="team-item">
-            <a href=""
-              ><img src="./images/img(7).jpg" alt="Михаил Ермаков" width="270"
+            <a class="team-link" href=""
+              ><img 
+              src="./images/img(7).jpg" alt="Михаил Ермаков" width="270"
             /></a>
             <h3 class="team-title">Михаил Ермаков</h3>
             <p class="team-text">UI Designer</p>
@@ -151,14 +160,16 @@
       </section>
     </main>
 
+    <!-- Футер -->
     <footer class="footer">
       <a href="" class="logo">Web<span class="logo-light">Studio</span></a>
 
       <address class="address">
         <ul class="address-list list">
           <li>
-            <a href="https://goo.gl/maps/rnDaSSkSqu99BaFW7"
-              class="link maps">Киев, пр-т Леси Украинки, 26</a
+            <a href="https://goo.gl/maps/rnDaSSkSqu99BaFW7" 
+            class="address-maps link"
+              >Киев, пр-т Леси Украинки, 26</a
             >
           </li>
           <li>
@@ -166,7 +177,8 @@
               href="mailto:info@devstudio.com"
               target="_blank"
               rel="noopener noindex nofollow"
-              class="links">info@devstudio.com</a
+              class="address-link"
+              >info@devstudio.com</a
             >
           </li>
           <li>
@@ -174,7 +186,8 @@
               href="tel:+380961111111"
               target="_blank"
               rel="noopener noindex nofollow"
-              class="links">+38 096 111 11 11</a
+              class="address-link"
+              >+38 096 111 11 11</a
             >
           </li>
         </ul>
