@@ -19,6 +19,17 @@ body {
   color: var(--primary-text-color);
 }
 
+/* Стилі до хедера */
+/* .header {
+  background-color: rgb(123, 177, 177);
+} */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
 /* styles do logo */
 .logo {
   font-family: Raleway, sans-serif;
