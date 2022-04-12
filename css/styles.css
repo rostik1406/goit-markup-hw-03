@@ -20,14 +20,21 @@ body {
 }
 
 /* Стилі до хедера */
-/* .header {
-  background-color: rgb(123, 177, 177);
-} */
+.header {
+  background-color: var(--text-white-color);
+  /* position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px; */ 
+}
 
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 15px;
+
+  outline: 2px solid red;
 }
 
 /* styles do logo */
@@ -93,13 +100,18 @@ body {
 /* Styles do hero-title  (Блок героя ) */
 .hero {
   background-color: var(--background-h-f-color);
+  text-align: center;
 }
+
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--text-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -114,6 +126,11 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+
+  padding: 10px 32px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /* Стилі до скривающихся заголовків */
@@ -132,6 +149,8 @@ body {
 
 /*  загальні стилі до списків */
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -140,21 +159,14 @@ body {
   text-decoration: none;
 }
 
-/* Cтилі до section Наші переваги */
-.features-title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+
+
+/* Загальні стилі до секцій */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.features-text {
-  font-size: 14px;
-  line-height: 1.71;
-}
-
-/*  section Чем мы занимаемся  */
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -162,21 +174,52 @@ body {
   line-height: 1.16;
 }
 
+
+/* Cтилі до section Наші переваги */
+.features-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*  section Чем мы занимаемся  */
+
+
 /*  section Наша команда */
 .team {
   background-color: #f5f4fa;
 }
+
 
 .team-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.18;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* загальні стилі до footera */
