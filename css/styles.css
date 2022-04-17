@@ -37,6 +37,13 @@ img {
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -47,6 +54,8 @@ img {
 /* Стилі до хедера */
 .header {
   background-color: var(--text-white-color);
+
+  border-bottom: 1px solid #ececec;
 }
 
 .main-header {
@@ -79,7 +88,7 @@ img {
 /* styles do site-nav */
 .nav-list {
   display: flex;
-  margin-left: 40px;
+  margin-left: 93px;
 }
 
 .nav-list .nav-item + .nav-item {
@@ -87,6 +96,9 @@ img {
 }
 
 .nav-list .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -101,11 +113,6 @@ img {
 
 .nav-list .link.current {
   color: var(--accent-color);
-}
-
-.header-nav .link {
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 /* Styles do auth-link  (nav) */
@@ -139,16 +146,14 @@ img {
 
 /* Styles do hero-title  (Блок героя ) */
 .hero {
-  background-color: var(--background-h-f-color);
-
   height: 600px;
-}
 
-.hero-container {
   padding-top: 200px;
   padding-bottom: 200px;
 
   text-align: center;
+
+  background-color: var(--background-h-f-color);
 }
 
 .hero-title {
@@ -244,6 +249,10 @@ img {
 }
 
 /*  section Чем мы занимаемся  */
+.work {
+  padding-top: 0;
+}
+
 .works-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -317,16 +326,22 @@ img {
 
 /* загальні стилі до footera */
 .footer {
-  background-color: var(--background-h-f-color);
-}
-
-.container-footer {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  background-color: var(--background-h-f-color);
 }
 
 .address {
   font-style: normal;
+}
+
+.address-list {
+  margin-top: 20px;
+}
+
+.address-list .address-item + .address-item {
+  margin-top: 9px;
 }
 
 .address-maps {
@@ -343,15 +358,6 @@ img {
 }
 
 /* СТИЛІ ДО ПОРТФОЛІО */
-
-.div {
-  display: block;
-  width: 100%;
-  margin: 0;
-
-  border: 1px solid #ececec;
-}
-
 .navigation-list {
   display: flex;
   justify-content: center;
@@ -404,7 +410,7 @@ img {
 }
 
 .filter-container {
-  padding: 20px 0;
+  padding: 20px 24px;
 
   border-right-width: 1px;
   border-right-style: solid;
@@ -420,7 +426,7 @@ img {
 }
 
 .filter-title {
-  margin: 0 24px 4px 24px;
+  margin-bottom: 4px;
 
   color: var(--title-text-color);
 
@@ -432,11 +438,6 @@ img {
 }
 
 .filter-text {
-  margin: 0 24px;
-
-  width: 322px;
-  height: 30px;
-
   font-size: 16px;
   line-height: 1.87;
 }
