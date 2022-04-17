@@ -140,11 +140,11 @@ img {
 /* Styles do hero-title  (Блок героя ) */
 .hero {
   background-color: var(--background-h-f-color);
+
+  height: 600px;
 }
 
 .hero-container {
-  height: 600px;
-
   padding-top: 200px;
   padding-bottom: 200px;
 
