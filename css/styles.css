@@ -42,8 +42,6 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-
-  /* outline: 2px solid red; */
 }
 
 /* Стилі до хедера */
@@ -142,12 +140,15 @@ img {
 /* Styles do hero-title  (Блок героя ) */
 .hero {
   background-color: var(--background-h-f-color);
-  text-align: center;
 }
 
 .hero-container {
+  height: 600px;
+
   padding-top: 200px;
   padding-bottom: 200px;
+
+  text-align: center;
 }
 
 .hero-title {
